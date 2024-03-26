@@ -1,18 +1,10 @@
 <div class="p-4 sm:ml-64 bg-white dark:bg-gray-800">
   <div class="p-4 border-2 border-gray-200 border-solid rounded-lg dark:border-white h-screen cont">
-    <div class="grid grid-cols-3 gap-4 mb-4">
-      <p class="text-2xl lg:text-xl font-semibold whitespace-nowrap text-gray-900 dark:text-white ml-3 ml-3">
-        Categoría
-      </p>
-    </div>
-    <div class="flex mb-4 rounded bg-gray-50 dark:bg-gray-800">
-      <p class="text-2xl text-lg font-semibold whitespace-nowrap text-gray-900 dark:text-white ml-3 mt-10">
-        Esta es la sección de categoría, aquí podrás agregar, editar y eliminar categorías <br> ver que productos
-        pertenecen a cada categoría y mucho más.
-      </p>
-    </div>
+
+    <backoffice-title-description [title]="title" [description]="description"></backoffice-title-description>
+
     <div class="grid grid-cols-2 gap-4 mb-4 mt-10">
-      <div class="flex rounded bg-gray-50 h-14 dark:bg-gray-800">
+      <div class="flex rounded bg-white h-14 dark:bg-gray-800">
         <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-3 me-2 mb-2
          dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
           Agregar
@@ -33,7 +25,7 @@
 
     </div>
 
-    <div class="flex w-full mb-4 rounded bg-gray-50 dark:bg-gray-800">
+    <div class="flex w-full mb-4 rounded bg-white dark:bg-gray-800">
       <div class="relative overflow-x-auto">
         <table class=" text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 ml-3">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

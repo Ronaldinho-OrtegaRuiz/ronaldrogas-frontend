@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+
+  .cont{
+    height: 100%;
+    width: 100%;
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  table{
+    margin-top: 30%;
+  }
+}

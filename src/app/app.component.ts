@@ -3,17 +3,17 @@ import { RouterOutlet } from '@angular/router';
 import {DashboardComponent} from "./backoffice/dashboard/dashboard.component";
 import {initFlowbite} from "flowbite";
 import {CategoryComponent} from "./backoffice/category/category.component";
+import {TitleDescriptionComponent} from "./backoffice/title-description/title-description.component";
+import {BackofficeModule} from "./backoffice/backoffice.module";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, DashboardComponent, CategoryComponent],
+  imports: [RouterOutlet, BackofficeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit{
-  title = 'ronaldrogas-frontend';
-
   ngOnInit() {
     initFlowbite();
 
