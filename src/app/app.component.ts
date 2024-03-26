@@ -5,11 +5,12 @@ import {initFlowbite} from "flowbite";
 import {CategoryComponent} from "./backoffice/category/category.component";
 import {TitleDescriptionComponent} from "./backoffice/title-description/title-description.component";
 import {BackofficeModule} from "./backoffice/backoffice.module";
+import {CategoryPageComponent} from "./pages/category/category.page.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BackofficeModule],
+  imports: [RouterOutlet, BackofficeModule, CategoryPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
